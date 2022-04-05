@@ -4,7 +4,8 @@
 }
 
 body {
-    background-image: url()
+    background-image: url('../image/Lights_In_The_Night_(155818849).jpeg');
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,18 +15,27 @@ body {
 .gameBoard {
     height: 500px;
     width: 650px; 
-    background-color: blue;
-    border: 10px solid navy;
+    background-color: #b2ddb4ea;
+    border: 10px solid rgb(6, 253, 253);
+    border-radius: 0%;
     margin: 0 auto;
-    display: flex;
     flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    
+
 }
+div {
+    background-color: rgb(252, 252, 243);
+    border: 1px solid black;
+    border-radius: 80px;
+    
 
 h1 {
     font-size: 50px;
     font-weight: bolder;
     text-decoration: underline;
-    color: blueviolet;
+    color: red;
     padding: 50px;
 }
 
