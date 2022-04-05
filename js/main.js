@@ -51,6 +51,58 @@ id40 = document.getElementById("40")
 id41 = document.getElementById("41")
 id42 = document.getElementById("42")
 
+//-------------div each Id's-----------//
+
+id01.addEventListener("click", handleButtonClick);
+id02.addEventListener("click", handleButtonClick);
+id03.addEventListener("click", handleButtonClick);
+id04.addEventListener("click", handleButtonClick);
+id05.addEventListener("click", handleButtonClick);
+id06.addEventListener("click", handleButtonClick);
+id07.addEventListener("click", handleButtonClick);
+id08.addEventListener("click", handleButtonClick);
+id09.addEventListener("click", handleButtonClick);
+id10.addEventListener("click", handleButtonClick);
+id11.addEventListener("click", handleButtonClick);
+id12.addEventListener("click", handleButtonClick);
+id13.addEventListener("click", handleButtonClick);
+id14.addEventListener("click", handleButtonClick);
+id15.addEventListener("click", handleButtonClick);
+id16.addEventListener("click", handleButtonClick);
+id17.addEventListener("click", handleButtonClick);
+id18.addEventListener("click", handleButtonClick);
+id19.addEventListener("click", handleButtonClick);
+id20.addEventListener("click", handleButtonClick);
+id21.addEventListener("click", handleButtonClick);
+id22.addEventListener("click", handleButtonClick);
+id23.addEventListener("click", handleButtonClick);
+id24.addEventListener("click", handleButtonClick);
+id25.addEventListener("click", handleButtonClick);
+id26.addEventListener("click", handleButtonClick);
+id27.addEventListener("click", handleButtonClick);
+id28.addEventListener("click", handleButtonClick);
+id29.addEventListener("click", handleButtonClick);
+id30.addEventListener("click", handleButtonClick);
+id31.addEventListener("click", handleButtonClick);
+id32.addEventListener("click", handleButtonClick);
+id33.addEventListener("click", handleButtonClick);
+id34.addEventListener("click", handleButtonClick);
+id35.addEventListener("click", handleButtonClick);
+id36.addEventListener("click", handleButtonClick);
+id37.addEventListener("click", handleButtonClick);
+id38.addEventListener("click", handleButtonClick);
+id39.addEventListener("click", handleButtonClick);
+id40.addEventListener("click", handleButtonClick);
+id41.addEventListener("click", handleButtonClick);
+id42.addEventListener("click", handleButtonClick);
+
+resetButton.addEventListener('click', handleResetButton);
+
+
+function handleButtonClick(event) {
+    
+}
+
 
 function handleResetButton() {
     id01.textContent = '';
