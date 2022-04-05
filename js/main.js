@@ -9,3 +9,6 @@ let playerTwoBlue;
 let resetButton = document.getElementById('reset');
 
 
+function handleResetButton() {
+    
+}
