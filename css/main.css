@@ -19,7 +19,6 @@ body {
     background-color: #270207;
     border: 10px solid rgb(6, 253, 253);
     border-radius: 0%;
-    
     display: grid;
     grid-template-columns: repeat(7, 1fr);
 }

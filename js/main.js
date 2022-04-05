@@ -1,12 +1,13 @@
-/*----- constants -----*/
-/*----- app's state (variables) -----*/
-/*----- cached element references -----*/
-/*----- event listeners -----*/
-/*----- functions -----*/
+
+//---------- variables ----------//
 
 let playerOneRed;
 let playerTwoBlue;
 let resetButton = document.getElementById('reset');
+
+
+//---------- element references ----------//
+
 
 id01 = document.getElementById("01")
 id02 = document.getElementById("02")
@@ -51,7 +52,7 @@ id40 = document.getElementById("40")
 id41 = document.getElementById("41")
 id42 = document.getElementById("42")
 
-//-------------div each Id's-----------//
+//-------------event listeners for in div each Id's-----------//
 
 id01.addEventListener("click", handleButtonClick);
 id02.addEventListener("click", handleButtonClick);
@@ -98,9 +99,11 @@ id42.addEventListener("click", handleButtonClick);
 
 resetButton.addEventListener('click', handleResetButton);
 
+// ----------functions---------//
+
 
 function handleButtonClick(event) {
-    
+
 }
 
 
