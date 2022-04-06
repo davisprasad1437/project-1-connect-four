@@ -1,7 +1,12 @@
-
 //---------- variables ----------//
 
-let playerOneRed;
+let id01, id02, id03, id04, id05, id06, id07;
+let id08, id09, id10, id11, id12, id13, id14;
+let id15, id16, id17, id18, id019, id20, id21;
+let id22, id23, id24, id25, id26, id27, id28;
+let id29, id30, id31, id32, id33, id34, id35;
+let id36, id37, id38, id39, id40, id41, id42;
+
 let playerTwoBlue;
 let resetButton = document.getElementById('reset');
 
@@ -103,8 +108,10 @@ resetButton.addEventListener('click', handleResetButton);
 
 
 function handleButtonClick(event) {
-
-}
+    if (event.target.textContent===''){event.target.textContent = playerTurn === 0 ? ('X'): ('O');
+    playerTurn = playerTurn === 0 ? 1: 0;
+    }
+  }
 
 
 function handleResetButton() {
@@ -124,10 +131,10 @@ function handleResetButton() {
     id14.textContent = '';
     id15.textContent = '';
     id16.textContent = '';
-    id17.textContent = '';
+    id17.textContent = '';s
     id18.textContent = '';
     id19.textContent = '';
-    id20textContent = '';
+    id20.textContent = '';
     id21.textContent = '';
     id22.textContent = '';
     id23.textContent = '';
