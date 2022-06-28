@@ -30,8 +30,7 @@ div {
     display: grid;
     padding: 10px;
 }
-    
-
+   
 h1 {
     font-size: 50px;
     font-weight: bolder;
@@ -55,5 +54,6 @@ button {
     font-size: 15px;
     border-radius: 15px;
     padding: 10px;
+
 
 }
